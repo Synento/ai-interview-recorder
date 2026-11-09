@@ -1,0 +1,125 @@
+:root {
+  background: #101114;
+  color: #f4f4f5;
+  color-scheme: light dark;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #93c5fd;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 2rem 1.25rem 4rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+
+h2 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  background: #e8e8ea;
+  border: 0;
+  border-radius: 0.5rem;
+  color: #111;
+  cursor: pointer;
+  padding: 0.6rem 1rem;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+input {
+  background: #18191d;
+  border: 1px solid #3f3f46;
+  border-radius: 0.5rem;
+  color: inherit;
+  padding: 0.55rem 0.7rem;
+  width: 100%;
+}
+
+canvas,
+video {
+  background: #000;
+  border-radius: 0.5rem;
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+  font-size: 0.92em;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.banner {
+  background: #451a1a;
+  border: 1px solid #f87171;
+  border-radius: 0.75rem;
+  color: #fecaca;
+  margin: 0 0 1.25rem;
+  padding: 0.9rem 1rem;
+}
+
+.muted {
+  color: #a1a1aa;
+}
+
+.note {
+  background: #1c1917;
+  border: 1px dashed #a16207;
+  border-radius: 0.75rem;
+  padding: 1rem 1.1rem;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.status {
+  min-height: 1.5em;
+}
+
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
